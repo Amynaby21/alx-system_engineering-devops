@@ -1,2 +1,2 @@
 #!/bin/bash
-cat - | grep | wc -l
+paste -d | cut -f 1
