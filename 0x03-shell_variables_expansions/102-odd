@@ -1,2 +1,2 @@
 #!/bin/bash
-hcat -s ' ' | ls -l
+cut -d '/' -f 1
